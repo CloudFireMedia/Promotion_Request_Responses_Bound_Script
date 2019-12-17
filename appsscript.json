@@ -2,10 +2,9 @@
   "timeZone": "America/Chicago",
   "dependencies": {
     "libraries": [{
-      "userSymbol": "PL",
-      "libraryId": "1y9ackD7MdSsUkiGd1Au7DvkAgYRn7vkraabnwv12WvIj9YEK1579k48F",
-      "version": "7",
-      "developmentMode": true
+      "userSymbol": "PRR",
+      "libraryId": "1uXL1v9zmHpWSimHagWFAlqsFayLvyo4FLIOiJEt0pkjJZdYN4C-cE7-j",
+      "version": "2"
     }]
   },
   "exceptionLogging": "STACKDRIVER"
