@@ -1,12 +1,13 @@
 var SCRIPT_NAME = 'Promotion_Request_Responses_Bound_Script'
-var SCRIPT_VERSION = 'v1.0'
+var SCRIPT_VERSION = 'v1.0.dev_cdb'
 
 function onOpen() {
   
   SpreadsheetApp.getUi().createMenu('CloudFire')
     .addItem('Sync  to Master - single event', 'syncRowToMaster')
-//    .addItem('Sync  to Master - all marked rows', 'syncAllToMaster')
-//    .addSeparator()
+   // .addItem('Sync  to Master - all marked rows', 'syncAllToMaster')
+    .addSeparator()
+    .addItem('Format Incoming_Data Sheet', 'formatIncomingDataSheet')
 //      
 //      .addItem("Update Events Promotion Calendar for Matching Events - TEST", 'updateEventsPromotionCalendarMatchingEvents_TEST')
 //      .addItem("Update Events Promotion Calendar for Matching Events", 'updateEventsPromotionCalendarMatchingEvents')
